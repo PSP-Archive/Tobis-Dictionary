@@ -1,0 +1,29 @@
+﻿Build started 9/28/2011 2:40:12 AM.
+     1>Project "C:\Users\Kquadrato\Desktop\Emulador jcpsp\MS0\PSP\GAME\PSPDictionary\PSPDictionary\PSPDictionary.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         vsmake && copy EBOOT.PBP "G:\PSP\GAME\PSPDictionary\"
+         psp-g++ -I. -IC:/pspsdk/psp/sdk/include -Wall -Wno-long-long -G0 -O2 -DJOY_ -IC:/pspsdk/psp/include/SDL -Dmain=SDL_main   -fno-exceptions -fno-rtti -D_PSP_FW_VERSION=150   -c -o main.o main.cpp
+         main.cpp: In function 'void DeleteIntelisenseArray()':
+     1>main.cpp(195): warning : comparison between signed and unsigned integer expressions
+         psp-gcc -I. -IC:/pspsdk/psp/sdk/include -Wall -Wno-long-long -G0 -O2 -DJOY_ -IC:/pspsdk/psp/include/SDL -Dmain=SDL_main  -D_PSP_FW_VERSION=150  -L. -LC:/pspsdk/psp/sdk/lib   main.o CSurface.o CMenuSurface.o CMenu.o CKeyboardSurface.o CKeyboard.o CAudio.o CAnimation.o -lSDL_mixer -lsmpeg -lstdc++ -lSDL_ttf -lfreetype -lvorbisidec -logg -lSDL_image -lpng -ljpeg -lz -lSDL -LC:/pspsdk/psp/lib -lSDLmain -lSDL -lm -lGL -lpspvfpu -LC:/pspsdk/psp/sdk/lib -lpspdebug -lpspgu -lpspctrl -lpspge -lpspdisplay -lpsphprm -lpspsdk -lpsprtc -lpspaudio -lc -lpspuser -lpsputility -lpspkernel -lpspnet_inet  -lpspirkeyb -lpsppower -lpspdebug -lpspdisplay -lpspge -lpspctrl -lpspsdk -lc -lpspnet -lpspnet_inet -lpspnet_apctl -lpspnet_resolver -lpsputility -lpspuser -lpspkernel -o PSPDictionary.elf
+         psp-fixup-imports PSPDictionary.elf
+         psp-strip PSPDictionary.elf -o PSPDictionary_strip.elf
+         pack-pbp EBOOT.PBP PARAM.SFO ICON0.png  \
+         	NULL PIC0.png PIC1.png  \
+         	SND0.at3  PSPDictionary_strip.elf NULL
+         [0]        408 bytes | PARAM.SFO
+         [1]      17488 bytes | ICON0.png
+         [2]          0 bytes | NULL
+         [3]      13076 bytes | PIC0.png
+         [4]     125464 bytes | PIC1.png
+         [5]     146076 bytes | SND0.at3
+         [6]    1625224 bytes | PSPDictionary_strip.elf
+         [7]          0 bytes | NULL
+         C:/pspsdk/bin/rm -f PSPDictionary_strip.elf
+         The system cannot find the drive specified.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "vsmake && copy EBOOT.PBP "G:\PSP\GAME\PSPDictionary\"" exited with code 1.
+     1>Done Building Project "C:\Users\Kquadrato\Desktop\Emulador jcpsp\MS0\PSP\GAME\PSPDictionary\PSPDictionary\PSPDictionary.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.87

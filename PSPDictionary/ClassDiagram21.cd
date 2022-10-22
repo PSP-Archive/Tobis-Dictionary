@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAudio">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAAAAAAAAAAAUAAAAAAAAUQAAAAAAEQAA=</HashCode>
+      <FileName>CAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyboard">
+    <Position X="3" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CADA4xEgGABAAJAACADgAaFdAACiiJACAAwS//+X/rU=</HashCode>
+      <FileName>CKeyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyboardSurface">
+    <Position X="5.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAAAAAAAAAAAAEACAABAAAACIABAABABEg=</HashCode>
+      <FileName>CKeyboardSurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenu">
+    <Position X="7.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAwggsYNhHAAD/B0EgEC4ACyIBCnTmAQW2DBABQQE=</HashCode>
+      <FileName>CMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuSurface">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABQAAAAAAAAAAgAAAAgAAAAAEAEAAABAAAg=</HashCode>
+      <FileName>CMenuSurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSurface">
+    <Position X="0.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAAAAAAAAAAABAABAAAQAQAAAAAA=</HashCode>
+      <FileName>CSurface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimation">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAgAoAAAAAAAAAAAAAAAAAAQAAABA=</HashCode>
+      <FileName>CAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
